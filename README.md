@@ -1,369 +1,571 @@
-# 🖥️ Repositorio de Wallpapers
+<div align="center">
 
-Colección curada de fondos de escritorio. Siéntete libre de descargar tus favoritos o contribuir añadiendo nuevos al repositorio.
+<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30"/>
+
+# 🖼️ Wallpaper Collection
+
+**A curated selection of high-resolution backgrounds for your desktop.**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-c29df2?style=flat-square)](LICENSE)
+[![Wallpaper: Macchiato](https://img.shields.io/badge/Style-Macchiato-be9aee?style=flat-square)](https://github.com/catppuccin/catppuccin)
+
+
+</div>
 
 ---
 
-## 📂 Estructura del Proyecto
-```text
-.
-├── 📁 macchiato/     # Fondos principales (Aesthetic, Paisajes, Pixel Art)
-└── 📁 profile/       # Imágenes de perfil y avatares
+## 🧠 Philosophy
 
-## 🖼️ Galería Completa
+**Macchiato Wallpapers** are hand-picked to ensure perfect color harmony with the Catppuccin palette. High-contrast, sharp, and optimized for performance.
 
-| Imagen | Nombre del Archivo |
-| :--- | :--- |
-| ![catppuccin-wallpaper12](macchiato/_catppuccin-wallpaper12.jpg) | `_catppuccin-wallpaper12.jpg` |
-| ![black-moon](macchiato/0-black-moon.jpg) | `0-black-moon.jpg` |
-| ![akane](macchiato/1-akane.jpg) | `1-akane.jpg` |
-| ![alleyway](macchiato/1-alleyway.png) | `1-alleyway.png` |
-| ![city-view](macchiato/1-city-view.png) | `1-city-view.png` |
-| ![GhostPastel](macchiato/1-GhostPastel.jpg) | `1-GhostPastel.jpg` |
-| ![totoro](macchiato/1-totoro.png) | `1-totoro.png` |
-| ![akane](macchiato/2-akane.jpg) | `2-akane.jpg` |
-| ![GhostPastel](macchiato/2-GhostPastel.jpg) | `2-GhostPastel.jpg` |
-| ![akane](macchiato/3-akane.jpg) | `3-akane.jpg` |
-| ![astronaut](macchiato/3-astronaut.png) | `3-astronaut.png` |
-| ![GhostPastel](macchiato/3-GhostPastel.jpg) | `3-GhostPastel.jpg` |
-| ![3d-model](macchiato/3d-model.jpg) | `3d-model.jpg` |
-| ![akane](macchiato/4-akane.jpg) | `4-akane.jpg` |
-| ![one-piece](macchiato/4-one-piece.png) | `4-one-piece.png` |
-| ![akane](macchiato/8.akane.jpg) | `8.akane.jpg` |
-| ![mountain-moon](macchiato/a_mountain_with_trees_and_moon.jpg) | `a_mountain_with_trees_and_moon.jpg` |
-| ![abstract-swirls](macchiato/abstract-swirls.jpg) | `abstract-swirls.jpg` |
-| ![aesthetic](macchiato/aesthetic.jpg) | `aesthetic.jpg` |
-| ![artificial-valley](macchiato/artificial-valley.jpg) | `artificial-valley.jpg` |
-| ![asian-village](macchiato/asian-village.png) | `asian-village.png` |
-| ![astronaut](macchiato/astronaut.png) | `astronaut.png` |
-| ![atlantis](macchiato/atlantis.jpg) | `atlantis.jpg` |
-| ![bars](macchiato/bars.jpg) | `bars.jpg` |
-| ![basement](macchiato/basement.jpg) | `basement.jpg` |
-| ![beach-path](macchiato/beach-path.jpg) | `beach-path.jpg` |
-| ![beach](macchiato/beach.jpg) | `beach.jpg` |
-| ![berries-1](macchiato/berries-1.jpg) | `berries-1.jpg` |
-| ![berries-2](macchiato/berries-2.jpg) | `berries-2.jpg` |
-| ![biking-sunset](macchiato/biking-sunset.jpg) | `biking-sunset.jpg` |
-| ![black-hole](macchiato/black-hole.png) | `black-hole.png` |
-| ![blue-flowers](macchiato/blue-flowers.jpg) | `blue-flowers.jpg` |
-| ![blue-kaiju](macchiato/blue-kaiju.png) | `blue-kaiju.png` |
-| ![blue-landscape](macchiato/blue-landscape.png) | `blue-landscape.png` |
-| ![blueberries](macchiato/blueberries.jpg) | `blueberries.jpg` |
-| ![bluehour](macchiato/bluehour.jpg) | `bluehour.jpg` |
-| ![blueprint](macchiato/blueprint.png) | `blueprint.png` |
-| ![bsod](macchiato/bsod.png) | `bsod.png` |
-| ![bunnies-road](macchiato/bunnies-road.png) | `bunnies-road.png` |
-| ![sakura-sky](macchiato/c4-spring-sakura-sky.jpg) | `c4-spring-sakura-sky.jpg` |
-| ![cabin-2](macchiato/cabin-2.jpg) | `cabin-2.jpg` |
-| ![cabin-3](macchiato/cabin-3.png) | `cabin-3.png` |
-| ![cabin-4](macchiato/cabin-4.png) | `cabin-4.png` |
-| ![cabin](macchiato/cabin.png) | `cabin.png` |
-| ![call-it-a-day](macchiato/call-it-a-day.jpg) | `call-it-a-day.jpg` |
-| ![car-1](macchiato/car-1.png) | `car-1.png` |
-| ![car-wreck](macchiato/car-wreck.png) | `car-wreck.png` |
-| ![cartoon-castle](macchiato/cartoon-castle.png) | `cartoon-castle.png` |
-| ![castle](macchiato/castle.png) | `castle.png` |
-| ![cat-in-clouds](macchiato/cat-in-clouds.png) | `cat-in-clouds.png` |
-| ![cat-street](macchiato/cat-street.jpg) | `cat-street.jpg` |
-| ![cat-vibin](macchiato/cat-vibin.png) | `cat-vibin.png` |
-| ![chess-gate](macchiato/chess-gate.jpeg) | `chess-gate.jpeg` |
-| ![city-harbor](macchiato/city-harbor.png) | `city-harbor.png` |
-| ![city-horizon](macchiato/city-horizon.jpg) | `city-horizon.jpg` |
-| ![city-on-water](macchiato/city-on-water.jpg) | `city-on-water.jpg` |
-| ![city](macchiato/city.png) | `city.png` |
-| ![clearing](macchiato/clearing.png) | `clearing.png` |
-| ![cliff-path](macchiato/cliff-path.jpg) | `cliff-path.jpg` |
-| ![cloud-coffee](macchiato/cloud-coffee.jpg) | `cloud-coffee.jpg` |
-| ![clouds-2](macchiato/clouds-2.png) | `clouds-2.png` |
-| ![clouds-3](macchiato/clouds-3.jpg) | `clouds-3.jpg` |
-| ![clouds-3](macchiato/clouds-3.png) | `clouds-3.png` |
-| ![clouds-5](macchiato/clouds-5.jpg) | `clouds-5.jpg` |
-| ![clouds](macchiato/clouds.png) | `clouds.png` |
-| ![coffee-shop](macchiato/coffee-shop.png) | `coffee-shop.png` |
-| ![cold-alley](macchiato/cold-alley.png) | `cold-alley.png` |
-| ![compass](macchiato/compass.jpg) | `compass.jpg` |
-| ![cool](macchiato/cool.jpg) | `cool.jpg` |
-| ![corals](macchiato/corals-fish-underwater.jpg) | `corals-fish-underwater.jpg` |
-| ![cottages-river](macchiato/cottages-river.png) | `cottages-river.png` |
-| ![crane](macchiato/crane.png) | `crane.png` |
-| ![danbo](macchiato/danbo.jpg) | `danbo.jpg` |
-| ![dark-forest](macchiato/dark-forest.jpg) | `dark-forest.jpg` |
-| ![dark-star](macchiato/dark-star.jpg) | `dark-star.jpg` |
-| ![dark-waves](macchiato/dark-waves.jpg) | `dark-waves.jpg` |
-| ![day-forest](macchiato/day-forest-path.png) | `day-forest-path.png` |
-| ![deer-glade](macchiato/deer-glade.jpg) | `deer-glade.jpg` |
-| ![degirled](macchiato/degirled.png) | `degirled.png` |
-| ![desolate-city-2](macchiato/desolate-city-2.jpg) | `desolate-city-2.jpg` |
-| ![desolate-city](macchiato/desolate-city.jpg) | `desolate-city.jpg` |
-| ![diner](macchiato/diner-lonely-road.jpg) | `diner-lonely-road.jpg` |
-| ![dino](macchiato/dino.jpg) | `dino.jpg` |
-| ![disco](macchiato/disco.png) | `disco.png` |
-| ![dm-1](macchiato/dominik-mayer-1.jpg) | `dominik-mayer-1.jpg` |
-| ![dm-10](macchiato/dominik-mayer-10.jpg) | `dominik-mayer-10.jpg` |
-| ![dm-11](macchiato/dominik-mayer-11.jpg) | `dominik-mayer-11.jpg` |
-| ![dm-12](macchiato/dominik-mayer-12.jpg) | `dominik-mayer-12.jpg` |
-| ![dm-13](macchiato/dominik-mayer-13.jpg) | `dominik-mayer-13.jpg` |
-| ![dm-14](macchiato/dominik-mayer-14.jpg) | `dominik-mayer-14.jpg` |
-| ![dm-15](macchiato/dominik-mayer-15.jpg) | `dominik-mayer-15.jpg` |
-| ![dm-16](macchiato/dominik-mayer-16.jpg) | `dominik-mayer-16.jpg` |
-| ![dm-17](macchiato/dominik-mayer-17.jpg) | `dominik-mayer-17.jpg` |
-| ![dm-18](macchiato/dominik-mayer-18.png) | `dominik-mayer-18.png` |
-| ![dm-19](macchiato/dominik-mayer-19.jpg) | `dominik-mayer-19.jpg` |
-| ![dm-2](macchiato/dominik-mayer-2.jpg) | `dominik-mayer-2.jpg` |
-| ![dm-20](macchiato/dominik-mayer-20.jpg) | `dominik-mayer-20.jpg` |
-| ![dm-21](macchiato/dominik-mayer-21.jpg) | `dominik-mayer-21.jpg` |
-| ![dm-22](macchiato/dominik-mayer-22.jpg) | `dominik-mayer-22.jpg` |
-| ![dm-23](macchiato/dominik-mayer-23.jpg) | `dominik-mayer-23.jpg` |
-| ![dm-24](macchiato/dominik-mayer-24.jpg) | `dominik-mayer-24.jpg` |
-| ![dm-25](macchiato/dominik-mayer-25.jpg) | `dominik-mayer-25.jpg` |
-| ![dm-26](macchiato/dominik-mayer-26.jpg) | `dominik-mayer-26.jpg` |
-| ![dm-4](macchiato/dominik-mayer-4.jpg) | `dominik-mayer-4.jpg` |
-| ![dm-5](macchiato/dominik-mayer-5.jpg) | `dominik-mayer-5.jpg` |
-| ![dm-6](macchiato/dominik-mayer-6.jpg) | `dominik-mayer-6.jpg` |
-| ![dm-7](macchiato/dominik-mayer-7.jpg) | `dominik-mayer-7.jpg` |
-| ![dm-8](macchiato/dominik-mayer-8.jpg) | `dominik-mayer-8.jpg` |
-| ![dm-9](macchiato/dominik-mayer-9.jpg) | `dominik-mayer-9.jpg` |
-| ![dragon](macchiato/dragon.jpg) | `dragon.jpg` |
-| ![droplets](macchiato/droplets.png) | `droplets.png` |
-| ![dwarf-saber](macchiato/dwarf-saber.jpg) | `dwarf-saber.jpg` |
-| ![eclipse](macchiato/eclipse.jpg) | `eclipse.jpg` |
-| ![excalibur](macchiato/excalibur-lake.jpg) | `excalibur-lake.jpg` |
-| ![fantasy-city](macchiato/fantasy-city.jpg) | `fantasy-city.jpg` |
-| ![fight](macchiato/fight.jpg) | `fight.jpg` |
-| ![fishing](macchiato/fishing.jpg) | `fishing.jpg` |
-| ![flower-branch](macchiato/flower-branch.png) | `flower-branch.png` |
-| ![flower-field-2](macchiato/flower-field-2.png) | `flower-field-2.png` |
-| ![flower-field-3](macchiato/flower-field-3.png) | `flower-field-3.png` |
-| ![flower-field](macchiato/flower-field.jpg) | `flower-field.jpg` |
-| ![flower](macchiato/flower.jpg) | `flower.jpg` |
-| ![flowering-rain](macchiato/flowering-rain.png) | `flowering-rain.png` |
-| ![flowers-1](macchiato/flowers-1.jpg) | `flowers-1.jpg` |
-| ![flowers-10](macchiato/flowers-10.jpg) | `flowers-10.jpg` |
-| ![flowers-11](macchiato/flowers-11.jpg) | `flowers-11.jpg` |
-| ![flowers-12](macchiato/flowers-12.jpg) | `flowers-12.jpg` |
-| ![flowers-13](macchiato/flowers-13.jpg) | `flowers-13.jpg` |
-| ![flowers-14](macchiato/flowers-14.jpg) | `flowers-14.jpg` |
-| ![flowers-15](macchiato/flowers-15.jpg) | `flowers-15.jpg` |
-| ![flowers-16](macchiato/flowers-16.jpg) | `flowers-16.jpg` |
-| ![flowers-17](macchiato/flowers-17.png) | `flowers-17.png` |
-| ![flowers-18](macchiato/flowers-18.jpg) | `flowers-18.jpg` |
-| ![flowers-19](macchiato/flowers-19.jpg) | `flowers-19.jpg` |
-| ![flowers-2](macchiato/flowers-2.jpg) | `flowers-2.jpg` |
-| ![flowers-20](macchiato/flowers-20.jpg) | `flowers-20.jpg` |
-| ![flowers-21](macchiato/flowers-21.png) | `flowers-21.png` |
-| ![flowers-3](macchiato/flowers-3.jpg) | `flowers-3.jpg` |
-| ![flowers-4](macchiato/flowers-4.jpg) | `flowers-4.jpg` |
-| ![flowers-5](macchiato/flowers-5.jpg) | `flowers-5.jpg` |
-| ![flowers-6](macchiato/flowers-6.jpg) | `flowers-6.jpg` |
-| ![flowers-7](macchiato/flowers-7.jpg) | `flowers-7.jpg` |
-| ![flowers-8](macchiato/flowers-8.jpg) | `flowers-8.jpg` |
-| ![flowers-9](macchiato/flowers-9.jpg) | `flowers-9.jpg` |
-| ![flying-boat](macchiato/flying-boat.jpg) | `flying-boat.jpg` |
-| ![flying-comets](macchiato/flying-comets-clouds.jpg) | `flying-comets-clouds.jpg` |
-| ![foggy-city](macchiato/foggy-city.jpg) | `foggy-city.jpg` |
-| ![fox](macchiato/fox.png) | `fox.png` |
-| ![fumo-fumo](macchiato/fumo-fumo.jpg) | `fumo-fumo.jpg` |
-| ![galaxy-waves](macchiato/galaxy-waves.jpg) | `galaxy-waves.jpg` |
-| ![genshin](macchiato/genshin-landscape.png) | `genshin-landscape.png` |
-| ![gentlemen](macchiato/gentlemen-sunset.png) | `gentlemen-sunset.png` |
-| ![gingerbread](macchiato/gingerbread-house.jpg) | `gingerbread-house.jpg` |
-| ![girl-stars](macchiato/girl-stars.png) | `girl-stars.png` |
-| ![grandfather-tree](macchiato/grandfather-tree.jpg) | `grandfather-tree.jpg` |
-| ![grassy-well](macchiato/grassy-well.jpg) | `grassy-well.jpg` |
-| ![green-bridge](macchiato/green-bridge.jpg) | `green-bridge.jpg` |
-| ![greenbus](macchiato/greenbus.jpg) | `greenbus.jpg` |
-| ![harbor-3](macchiato/harbor-3.png) | `harbor-3.png` |
-| ![harbor](macchiato/harbor.jpg) | `harbor.jpg` |
-| ![haunted-house](macchiato/haunted-house.jpg) | `haunted-house.jpg` |
-| ![hollow-knight](macchiato/hollow-knight.jpg) | `hollow-knight.jpg` |
-| ![hollow-knight](macchiato/hollow-knight.png) | `hollow-knight.png` |
-| ![hollow](macchiato/hollow.jpg) | `hollow.jpg` |
-| ![horizon-2](macchiato/horizon-2.jpg) | `horizon-2.jpg` |
-| ![horizon](macchiato/horizon.jpg) | `horizon.jpg` |
-| ![i-touch-this](macchiato/i-touch-this.jpg) | `i-touch-this.jpg` |
-| ![ice-cream](macchiato/ice-cream.jpg) | `ice-cream.jpg` |
-| ![idk-tbh](macchiato/idk-tbh.png) | `idk-tbh.png` |
-| ![isekai](macchiato/isekai.jpg) | `isekai.jpg` |
-| ![japan-alley](macchiato/japan-alley.png) | `japan-alley.png` |
-| ![jellyfish](macchiato/jellyfish.jpg) | `jellyfish.jpg` |
-| ![jupiter](macchiato/jupiter.png) | `jupiter.png` |
-| ![kaiju](macchiato/kaiju.png) | `kaiju.png` |
-| ![keyboard-2](macchiato/keyboard-2.png) | `keyboard-2.png` |
-| ![keyboard](macchiato/keyboard.png) | `keyboard.png` |
-| ![kfc](macchiato/kfc.jpg) | `kfc.jpg` |
-| ![kitchen](macchiato/kitchen.png) | `kitchen.png` |
-| ![kitty](macchiato/kitty.jpg) | `kitty.jpg` |
-| ![kiwis](macchiato/kiwis.jpg) | `kiwis.jpg` |
-| ![knight-building](macchiato/knight-building.png) | `knight-building.png` |
-| ![knight-sit](macchiato/knight-sit.png) | `knight-sit.png` |
-| ![knight-templar](macchiato/knight-templar.jpg) | `knight-templar.jpg` |
-| ![knights-radiant](macchiato/knights-radiant.jpg) | `knights-radiant.jpg` |
-| ![koi](macchiato/koi.jpg) | `koi.jpg` |
-| ![koishi](macchiato/koishi.jpg) | `koishi.jpg` |
-| ![kusuriya](macchiato/kusuriya.png) | `kusuriya.png` |
-| ![lantern](macchiato/lantern-light-room.png) | `lantern-light-room.png` |
-| ![laundry](macchiato/laundry.jpg) | `laundry.jpg` |
-| ![lightbulbs](macchiato/lightbulbs.jpg) | `lightbulbs.jpg` |
-| ![lighthouse-2](macchiato/lighthouse-2.png) | `lighthouse-2.png` |
-| ![lighthouse](macchiato/lighthouse.jpg) | `lighthouse.jpg` |
-| ![link-click](macchiato/link-click-1.png) | `link-click-1.png` |
-| ![linux-communism](macchiato/linux-communism.jpg) | `linux-communism.jpg` |
-| ![lit-up-sky](macchiato/lit-up-sky.png) | `lit-up-sky.png` |
-| ![lovely-summer](macchiato/lovely-summer.jpg) | `lovely-summer.jpg` |
-| ![mage](macchiato/mage.jpg) | `mage.jpg` |
-| ![main-street](macchiato/main-street.png) | `main-street.png` |
-| ![maji-tabitabi-2](macchiato/maji-no-tabitabi-2.jpg) | `maji-no-tabitabi-2.jpg` |
-| ![maji-tabitabi-3](macchiato/maji-no-tabitabi-3.jpg) | `maji-no-tabitabi-3.jpg` |
-| ![majo-tabitabi](macchiato/majo-no-tabitabi.jpg) | `majo-no-tabitabi.jpg` |
-| ![map](macchiato/map.png) | `map.png` |
-| ![marine-tunnel](macchiato/marine-tunnel.jpg) | `marine-tunnel.jpg` |
-| ![math](macchiato/math.png) | `math.png` |
-| ![minimalist-bh](macchiato/minimalist-black-hole.png) | `minimalist-black-hole.png` |
-| ![misty-boat](macchiato/misty-boat.jpg) | `misty-boat.jpg` |
-| ![moon-beach](macchiato/moon-beach.png) | `moon-beach.png` |
-| ![moscow](macchiato/moscow.jpg) | `moscow.jpg` |
-| ![mountain-range](macchiato/mountain-range.jpg) | `mountain-range.jpg` |
-| ![mushishi](macchiato/mushishi.jpg) | `mushishi.jpg` |
-| ![totoro-sunflowers](macchiato/my-neighbor-totoro-sunflowers.png) | `my-neighbor-totoro-sunflowers.png` |
-| ![nature-valley-1](macchiato/nature-valley-1.jpg) | `nature-valley-1.jpg` |
-| ![nature-valley-2](macchiato/nature-valley-2.jpg) | `nature-valley-2.jpg` |
-| ![night-forest](macchiato/night-forest-path.png) | `night-forest-path.png` |
-| ![old-car](macchiato/old-car.jpg) | `old-car.jpg` |
-| ![old-computer](macchiato/old-computer.png) | `old-computer.png` |
-| ![herdazian](macchiato/one-legged-herdazian.jpg) | `one-legged-herdazian.jpg` |
-| ![orange](macchiato/orange.jpg) | `orange.jpg` |
-| ![oranges](macchiato/oranges.jpg) | `oranges.jpg` |
-| ![oversized-cat](macchiato/oversized-cat.jpg) | `oversized-cat.jpg` |
-| ![paint](macchiato/paint.jpg) | `paint.jpg` |
-| ![painting-standing](macchiato/painting-standing.jpg) | `painting-standing.jpg` |
-| ![painting](macchiato/painting.jpg) | `painting.jpg` |
-| ![panes](macchiato/panes.jpg) | `panes.jpg` |
-| ![pine](macchiato/pine.jpg) | `pine.jpg` |
-| ![pink-clouds](macchiato/pink-clouds.jpg) | `pink-clouds.jpg` |
-| ![pistachio-tea](macchiato/pistachio-tea.jpg) | `pistachio-tea.jpg` |
-| ![pitstop](macchiato/pitstop.png) | `pitstop.png` |
-| ![pixel-alley](macchiato/pixel-alley.png) | `pixel-alley.png` |
-| ![pixel-car](macchiato/pixel-car.png) | `pixel-car.png` |
-| ![pixel-castle](macchiato/pixel-castle.png) | `pixel-castle.png` |
-| ![pixel-earth](macchiato/pixel-earth.png) | `pixel-earth.png` |
-| ![pixel-galaxy](macchiato/pixel-galaxy.png) | `pixel-galaxy.png` |
-| ![pixel-napping](macchiato/pixel-napping.png) | `pixel-napping.png` |
-| ![pixel-planet](macchiato/pixel-planet.png) | `pixel-planet.png` |
-| ![pixel-prairie](macchiato/pixel-prairie.jpg) | `pixel-prairie.jpg` |
-| ![pixel-reading](macchiato/pixel-reading.png) | `pixel-reading.png` |
-| ![pizza](macchiato/pizza.jpg) | `pizza.jpg` |
-| ![plane-purple](macchiato/plane-purple.png) | `plane-purple.png` |
-| ![platform](macchiato/platform.jpg) | `platform.jpg` |
-| ![pompeii](macchiato/pompeii.png) | `pompeii.png` |
-| ![puffy-stars](macchiato/puffy-stars.jpg) | `puffy-stars.jpg` |
-| ![purple-horizon](macchiato/purple-horizon.jpg) | `purple-horizon.jpg` |
-| ![purpled-night](macchiato/purpled-night.jpg) | `purpled-night.jpg` |
-| ![railroad-2](macchiato/railroad-2.jpg) | `railroad-2.jpg` |
-| ![railroad-cat](macchiato/railroad-cat.png) | `railroad-cat.png` |
-| ![railroad-flowers](macchiato/railroad-flowers.jpg) | `railroad-flowers.jpg` |
-| ![railroad-horizon](macchiato/railroad-horizon.png) | `railroad-horizon.png` |
-| ![rainy-window](macchiato/rainy-window.jpeg) | `rainy-window.jpeg` |
-| ![red-city](macchiato/red-city.png) | `red-city.png` |
-| ![retro-live](macchiato/retro2_live.gif) | `retro2_live.gif` |
-| ![river-city](macchiato/river-city.jpg) | `river-city.jpg` |
-| ![road](macchiato/road.jpg) | `road.jpg` |
-| ![rocket-launch](macchiato/rocket-launch.jpg) | `rocket-launch.jpg` |
-| ![rocket-schematics](macchiato/rocket-schematics.jpg) | `rocket-schematics.jpg` |
-| ![rooftops](macchiato/rooftops.jpg) | `rooftops.jpg` |
-| ![ruins](macchiato/ruins.jpg) | `ruins.jpg` |
-| ![sakura-aura](macchiato/sakura-aura.jpg) | `sakura-aura.jpg` |
-| ![sakura-gate](macchiato/sakura-gate.jpg) | `sakura-gate.jpg` |
-| ![sakura-trees](macchiato/sakura-trees-over-river.jpg) | `sakura-trees-over-river.jpg` |
-| ![salty-suburban](macchiato/salty-suburban.jpg) | `salty-suburban.jpg` |
-| ![samurai](macchiato/samurai.jpg) | `samurai.jpg` |
-| ![satellite](macchiato/satellite.png) | `satellite.png` |
-| ![scifi](macchiato/scifi.jpg) | `scifi.jpg` |
-| ![serenity](macchiato/serenity.jpg) | `serenity.jpg` |
-| ![shadow-shape](macchiato/shadow-shape-holo.jpeg) | `shadow-shape-holo.jpeg` |
-| ![ship-2](macchiato/ship-2.png) | `ship-2.png` |
-| ![ship-3](macchiato/ship-3.jpg) | `ship-3.jpg` |
-| ![shrimp-rice](macchiato/shrimp-fried-rice.jpg) | `shrimp-fried-rice.jpg` |
-| ![signal](macchiato/signal-enthusiast.jpg) | `signal-enthusiast.jpg` |
-| ![snowflakes](macchiato/snowflakes.jpg) | `snowflakes.jpg` |
-| ![snowy-map](macchiato/snowy-map.png) | `snowy-map.png` |
-| ![snowy-train](macchiato/snowy-train.jpg) | `snowy-train.jpg` |
-| ![soaring-off](macchiato/soaring-off.jpg) | `soaring-off.jpg` |
-| ![soft-rose](macchiato/soft-rose.jpg) | `soft-rose.jpg` |
-| ![frieren-flowers](macchiato/sousou-no-frieren-flowers.png) | `sousou-no-frieren-flowers.png` |
-| ![south-pole](macchiato/south-pole.jpg) | `south-pole.jpg` |
-| ![space-piano](macchiato/space-piano.png) | `space-piano.png` |
-| ![space](macchiato/space.jpg) | `space.jpg` |
-| ![space](macchiato/space.png) | `space.png` |
-| ![square-city](macchiato/square-city.jpg) | `square-city.jpg` |
-| ![stall](macchiato/stall.jpg) | `stall.jpg` |
-| ![stay-vigil](macchiato/stay-vigil-by-pndora.jpg) | `stay-vigil-by-pndora.jpg` |
-| ![storm](macchiato/storm.jpg) | `storm.jpg` |
-| ![stormlight](macchiato/stormlight-archive.png) | `stormlight-archive.png` |
-| ![street-4](macchiato/street-4.png) | `street-4.png` |
-| ![street](macchiato/street.png) | `street.png` |
-| ![subway](macchiato/subway.jpg) | `subway.jpg` |
-| ![sunken-tower](macchiato/sunken-tower.png) | `sunken-tower.png` |
-| ![sunlit-ruins](macchiato/sunlit-ruins.png) | `sunlit-ruins.png` |
-| ![sunset](macchiato/sunset.jpg) | `sunset.jpg` |
-| ![sushi](macchiato/sushi.jpg) | `sushi.jpg` |
-| ![swirls](macchiato/swirls.jpg) | `swirls.jpg` |
-| ![swirly-painting](macchiato/swirly-painting.jpg) | `swirly-painting.jpg` |
-| ![sword](macchiato/sword.jpg) | `sword.jpg` |
-| ![tank](macchiato/tank.jpg) | `tank.jpg` |
-| ![temple](macchiato/temple.jpg) | `temple.jpg` |
-| ![toast](macchiato/toast.png) | `toast.png` |
-| ![tora](macchiato/tora.jpg) | `tora.jpg` |
-| ![touhou-house](macchiato/touhou-house.jpg) | `touhou-house.jpg` |
-| ![touhou-lake](macchiato/touhou-lake.jpg) | `touhou-lake.jpg` |
-| ![tower](macchiato/tower.png) | `tower.png` |
-| ![train-sideview](macchiato/train-sideview.png) | `train-sideview.png` |
-| ![train-station](macchiato/train-station.jpg) | `train-station.jpg` |
-| ![tree-stump](macchiato/tree-stump.jpg) | `tree-stump.jpg` |
-| ![tree](macchiato/tree.jpg) | `tree.jpg` |
-| ![trippy-purple](macchiato/trippy-purple.png) | `trippy-purple.png` |
-| ![trolley](macchiato/trolley.jpg) | `trolley.jpg` |
-| ![tux-socialism](macchiato/tux-socialism.jpg) | `tux-socialism.jpg` |
-| ![underwater-deep](macchiato/underwater-deep.jpg) | `underwater-deep.jpg` |
-| ![van-chilling](macchiato/van-chilling.png) | `van-chilling.png` |
-| ![venice-market](macchiato/venice-market.png) | `venice-market.png` |
-| ![vibrant-gate](macchiato/vibrant-gate.png) | `vibrant-gate.png` |
-| ![village-gate](macchiato/village-gate.jpg) | `village-gate.jpg` |
-| ![voxel-city](macchiato/voxel-city.jpg) | `voxel-city.jpg` |
-| ![voxel-houses](macchiato/voxel-houses-monochrome.png) | `voxel-houses-monochrome.png` |
-| ![voyager-1](macchiato/voyager-1.jpg) | `voyager-1.jpg` |
-| ![voyager-10](macchiato/voyager-10.jpg) | `voyager-10.jpg` |
-| ![voyager-11](macchiato/voyager-11.jpg) | `voyager-11.jpg` |
-| ![voyager-12](macchiato/voyager-12.jpg) | `voyager-12.jpg` |
-| ![voyager-13](macchiato/voyager-13.jpg) | `voyager-13.jpg` |
-| ![voyager-14](macchiato/voyager-14.jpg) | `voyager-14.jpg` |
-| ![voyager-15](macchiato/voyager-15.jpg) | `voyager-15.jpg` |
-| ![voyager-16](macchiato/voyager-16.jpg) | `voyager-16.jpg` |
-| ![voyager-17](macchiato/voyager-17.jpg) | `voyager-17.jpg` |
-| ![voyager-18](macchiato/voyager-18.jpg) | `voyager-18.jpg` |
-| ![voyager-19](macchiato/voyager-19.jpg) | `voyager-19.jpg` |
-| ![voyager-2](macchiato/voyager-2.jpg) | `voyager-2.jpg` |
-| ![voyager-20](macchiato/voyager-20.jpg) | `voyager-20.jpg` |
-| ![voyager-21](macchiato/voyager-21.jpg) | `voyager-21.jpg` |
-| ![voyager-22](macchiato/voyager-22.jpg) | `voyager-22.jpg` |
-| ![voyager-3](macchiato/voyager-3.jpg) | `voyager-3.jpg` |
-| ![voyager-4](macchiato/voyager-4.jpg) | `voyager-4.jpg` |
-| ![voyager-5](macchiato/voyager-5.jpg) | `voyager-5.jpg` |
-| ![voyager-6](macchiato/voyager-6.jpg) | `voyager-6.jpg` |
-| ![voyager-7](macchiato/voyager-7.jpg) | `voyager-7.jpg` |
-| ![voyager-8](macchiato/voyager-8.jpg) | `voyager-8.jpg` |
-| ![voyager-9](macchiato/voyager-9.jpg) | `voyager-9.jpg` |
-| ![wall](macchiato/wall.jpg) | `wall.jpg` |
-| ![wallhaven](macchiato/wallhaven-vqoo1p.jpg) | `wallhaven-vqoo1p.jpg` |
-| ![wallpaper-5](macchiato/wallpaperflare.com_wallpaper (5).jpg) | `wallpaperflare.com_wallpaper (5).jpg` |
-| ![wallpaper-7](macchiato/wallpaperflare.com_wallpaper (7).jpg) | `wallpaperflare.com_wallpaper (7).jpg` |
-| ![wallpaper-8](macchiato/wallpaperflare.com_wallpaper (8).jpg) | `wallpaperflare.com_wallpaper (8).jpg` |
-| ![wallpaper-9](macchiato/wallpaperflare.com_wallpaper (9).jpg) | `wallpaperflare.com_wallpaper (9).jpg` |
-| ![wanderer](macchiato/wanderer.jpg) | `wanderer.jpg` |
-| ![waterfall](macchiato/waterfall.png) | `waterfall.png` |
-| ![waves](macchiato/waves.png) | `waves.png` |
-| ![whale](macchiato/whale.jpg) | `whale.jpg` |
-| ![wheat](macchiato/wheat.png) | `wheat.png` |
-| ![windows-xp](macchiato/windows-xp.jpg) | `windows-xp.jpg` |
-| ![winter-flowers](macchiato/winter-flowers.jpg) | `winter-flowers.jpg` |
-| ![yohoho](macchiato/yohoho.jpg) | `yohoho.jpg` |
-| ![zuchold](macchiato/zuchold-archtecture.jpg) | `zuchold-archtecture.jpg` |
+---
+
+## 📂 Quick Access
+
+| Folder | Content |
+|:---|:---|
+| `macchiato/` | 🌌 Pixel Art, Landscapes & Aesthetic |
+| `profile/` | 👤 Avatars & Profile Pictures |
+
+---
+
+## 🚀 How to use
+
+If you are on a Linux system, you can pull this entire collection using the following command:
+
+```bash
+git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git) ~/Pictures/Wallpapers
+```
+---
+## 🖼️ Preview
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/0-black-moon.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/1-akane.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/1-GhostPastel.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/2-akane.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/2-GhostPastel.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/3-akane.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/3-GhostPastel.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/3d-model.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/4-akane.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/8.akane.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/_catppuccin-wallpaper12.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/a_mountain_with_trees_and_moon.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/abstract-swirls.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/aesthetic.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/artificial-valley.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/atlantis.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/bars.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/basement.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/beach-path.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/beach.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/berries-1.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/berries-2.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/biking-sunset.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/blue-flowers.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/blueberries.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/bluehour.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/c4-spring-sakura-sky.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/cabin-2.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/call-it-a-day.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/cat-street.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/city-horizon.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/city-on-water.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/cliff-path.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/cloud-coffee.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/clouds-3.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/clouds-5.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/compass.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/cool.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/corals-fish-underwater.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/danbo.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dark-forest.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dark-star.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dark-waves.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/deer-glade.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/desolate-city-2.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/desolate-city.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/diner-lonely-road.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dino.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-1.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-2.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-4.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-5.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-6.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-7.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-8.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-9.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-10.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-11.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-12.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-13.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-14.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-15.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-16.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-17.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-19.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-20.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-21.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-22.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-23.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-24.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-25.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-26.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dragon.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dwarf-saber.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/eclipse.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/excalibur-lake.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/fantasy-city.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/fight.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/fishing.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flower-field.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flower.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-1.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-2.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-3.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-4.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-5.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-6.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-7.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-8.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-9.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-10.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-11.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-12.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-13.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-14.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-15.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-16.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-18.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-19.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-20.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flying-boat.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flying-comets-clouds.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/foggy-city.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/fumo-fumo.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/galaxy-waves.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/gingerbread-house.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/grandfather-tree.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/grassy-well.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/green-bridge.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/greenbus.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/harbor.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/haunted-house.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/hollow-knight.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/hollow.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/horizon-2.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/horizon.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/i-touch-this.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/ice-cream.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/isekai.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/jellyfish.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/kfc.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/kitty.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/kiwis.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/knight-templar.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/knights-radiant.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/koi.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/koishi.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/laundry.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/lightbulbs.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/lighthouse.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/linux-communism.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/lovely-summer.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/mage.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/maji-no-tabitabi-2.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/maji-no-tabitabi-3.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/majo-no-tabitabi.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/marine-tunnel.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/misty-boat.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/moscow.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/mountain-range.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/mushishi.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/nature-valley-1.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/nature-valley-2.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/old-car.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/one-legged-herdazian.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/orange.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/oranges.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/oversized-cat.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/paint.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/painting-standing.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/painting.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/panes.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pine.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pink-clouds.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pistachio-tea.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pixel-prairie.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pizza.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/platform.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/puffy-stars.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/purple-horizon.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/purpled-night.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/railroad-2.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/railroad-flowers.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/river-city.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/road.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/rocket-launch.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/rocket-schematics.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/rooftops.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/ruins.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/sakura-aura.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/sakura-gate.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/sakura-trees-over-river.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/salty-suburban.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/samurai.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/scifi.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/serenity.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/ship-3.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/shrimp-fried-rice.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/signal-enthusiast.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/snowflakes.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/snowy-train.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/soaring-off.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/soft-rose.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/south-pole.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/space.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/square-city.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/stall.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/stay-vigil-by-pndora.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/storm.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/subway.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/sunset.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/sushi.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/swirls.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/swirly-painting.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/sword.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/tank.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/temple.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/tora.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/touhou-house.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/touhou-lake.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/train-station.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/tree-stump.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/tree.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/trolley.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/tux-socialism.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/underwater-deep.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/village-gate.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voxel-city.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-1.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-2.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-3.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-4.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-5.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-6.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-7.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-8.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-9.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-10.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-11.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-12.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-13.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-14.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-15.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-16.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-17.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-18.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-19.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-20.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-21.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voyager-22.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/wall.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/wallhaven-vqoo1p.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/wallpaperflare.com_wallpaper (5).jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/wallpaperflare.com_wallpaper (7).jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/wallpaperflare.com_wallpaper (8).jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/wallpaperflare.com_wallpaper (9).jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/wanderer.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/whale.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/windows-xp.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/winter-flowers.jpg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/yohoho.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/zuchold-archtecture.jpg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/1-alleyway.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/1-city-view.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/1-totoro.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/3-astronaut.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/4-one-piece.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/asian-village.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/astronaut.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/black-hole.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/blue-kaiju.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/blue-landscape.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/blueprint.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/bsod.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/bunnies-road.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/cabin-3.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/cabin-4.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/cabin.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/car-1.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/car-wreck.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/cartoon-castle.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/castle.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/cat-in-clouds.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/cat-vibin.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/city-harbor.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/city.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/clearing.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/clouds-2.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/clouds-3.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/clouds.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/coffee-shop.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/cold-alley.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/cottages-river.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/crane.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/day-forest-path.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/degirled.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/disco.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/dominik-mayer-18.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/droplets.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flower-branch.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flower-field-2.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flower-field-3.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowering-rain.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-17.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/flowers-21.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/fox.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/genshin-landscape.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/gentlemen-sunset.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/girl-stars.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/harbor-3.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/hollow-knight.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/idk-tbh.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/japan-alley.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/jupiter.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/kaiju.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/keyboard-2.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/keyboard.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/kitchen.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/knight-building.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/knight-sit.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/kusuriya.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/lantern-light-room.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/lighthouse-2.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/link-click-1.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/lit-up-sky.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/main-street.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/map.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/math.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/minimalist-black-hole.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/moon-beach.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/my-neighbor-totoro-sunflowers.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/night-forest-path.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/old-computer.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pitstop.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pixel-alley.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pixel-car.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pixel-castle.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pixel-earth.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pixel-galaxy.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pixel-napping.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pixel-planet.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pixel-reading.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/plane-purple.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/pompeii.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/railroad-cat.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/railroad-horizon.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/red-city.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/satellite.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/ship-2.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/snowy-map.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/sousou-no-frieren-flowers.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/space-piano.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/space.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/stormlight-archive.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/street-4.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/street.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/sunken-tower.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/sunlit-ruins.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/toast.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/tower.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/train-sideview.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/trippy-purple.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/van-chilling.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/venice-market.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/vibrant-gate.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/voxel-houses-monochrome.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/waterfall.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/waves.png" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/wheat.png" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/chess-gate.jpeg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/rainy-window.jpeg" width="24%" />
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/shadow-shape-holo.jpeg" width="24%" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alejosb13/Images-Galery-Wallpaper-Desktop/main/macchiato/retro2_live.gif" width="24%" />
+</p>
